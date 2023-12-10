@@ -5,9 +5,8 @@ import urllib.request
 # 함수 선언부
 def getBookInfoImg(book_tag):
     img_tag = book_tag.find("img")
-    if img_tag:
-        img_tag_src = img_tag['src']
-        return [img_tag_src]
+    img_tag_src = img_tag['src']
+    return [img_tag_src]
 
 # 하위에 이미지 하나만 가져오는 테스트 
 # 저자, 가격 가져오기. 

@@ -1,6 +1,6 @@
 import bs4
 
-webPage = open('C:/CookAnalysis/HTML/Sample03.html',
+webPage = open('/Users/u020/TestPython404_231204/ch9_crawling1/Sample03.html',
                'rt', encoding='utf-8').read()
 bsObject = bs4.BeautifulSoup(webPage, 'html.parser')
 

@@ -4,6 +4,7 @@ import datetime
 import bs4
 import urllib.request
 
+#2교시 24:38 소리이상 
 # 날씨의 정보를 크롤링 가져와서 -> 실제 csv 파일에 쓰는 예제.
 
 csvName = '/Users/u020/TestPython/sokcho_weather_231208.csv'

@@ -9,4 +9,5 @@ htmlObject = urllib.request.urlopen(nateUrl)
 bsObject = bs4.BeautifulSoup(htmlObject, 'html.parser')
 
 # 출력을 가독성 있게 출력
-print(bsObject.prettify())
+print(bsObject.head.prettify())
+print(bsObject.body.prettify())
